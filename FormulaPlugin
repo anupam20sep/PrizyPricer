@@ -1,0 +1,8 @@
+package plugins;
+
+import java.util.List;
+
+public interface FormulaPlugin {
+
+	public double calculateIdealPrice(List<Double> prices);
+}
