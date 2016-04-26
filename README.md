@@ -1,1 +1,1 @@
-# PrizyPricer
+This code consist of two projects. First is plugin which needs to be build separatly and jar is included in the main application. The FormulaPlugin jar is loaded using service loader. The implemenation of formula is added using this jar. So, if Formula is to be changed implement new version of formula and include it in main application without affecting the code in main application
